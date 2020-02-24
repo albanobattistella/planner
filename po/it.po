@@ -331,7 +331,7 @@ msgstr "La richiesta non era corretta"
 #: src/Utils.vala:734
 msgid ""
 "Authentication is required, and has failed, or has not yet been provided."
-msgstr""
+msgstr ""
 "È richiesta l'autenticazione, e' fallita o non è stata ancora fornita."
 
 #: src/Utils.vala:735
