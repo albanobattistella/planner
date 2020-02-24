@@ -326,32 +326,33 @@ msgstr "Esci"
 
 #: src/Utils.vala:733
 msgid "The request was incorrect."
-msgstr ""
+msgstr "La richiesta non era corretta"
 
 #: src/Utils.vala:734
 msgid ""
 "Authentication is required, and has failed, or has not yet been provided."
-msgstr ""
+msgstr""
+"È richiesta l'autenticazione, e' fallita o non è stata ancora fornita."
 
 #: src/Utils.vala:735
 msgid "The request was valid, but for something that is forbidden."
-msgstr ""
+msgstr "La richiesta era valida, ma per qualcosa è proibita."
 
 #: src/Utils.vala:736
 msgid "The requested resource could not be found."
-msgstr ""
+msgstr "La risorsa richiesta non è stata trovata."
 
 #: src/Utils.vala:737
 msgid "The user has sent too many requests in a given amount of time."
-msgstr ""
+msgstr "L'utente ha inviato troppe richieste in un determinato periodo di tempo."
 
 #: src/Utils.vala:738
 msgid "The request failed due to a server error."
-msgstr ""
+msgstr "La richiesta non è riuscita a causa di un errore del server."
 
 #: src/Utils.vala:739
 msgid "The server is currently unable to handle the request."
-msgstr ""
+msgstr "Il server non è attualmente in grado di gestire la richiesta."
 
 #. search_row = new Widgets.ActionRow (_("Quick Find"), "system-search-symbolic", "search", _("Your Inbox is the default place to add new tasks so you can get them out of your head quickly, then come back and make a plan to take care of them later. It’s a great way to declutter your mind so you can focus on whatever you’re doing right now."));
 #: src/Services/Database.vala:980 src/Widgets/Pane.vala:65
@@ -482,7 +483,7 @@ msgstr "Annulla"
 
 #: src/Widgets/New.vala:473
 msgid "Local"
-msgstr ""
+msgstr "Locale"
 
 #: src/Widgets/New.vala:544 src/Widgets/ProjectRow.vala:444
 msgid "No Area"
@@ -519,7 +520,7 @@ msgstr "Progetto locale"
 #: src/Widgets/ItemRow.vala:1246 src/Widgets/ItemRow.vala:1281
 #, c-format
 msgid "Task moved to <b>%s</b>"
-msgstr ""
+msgstr "L'attività è stata spostata in <b>%s</b>"
 
 #: src/Widgets/ProjectRow.vala:496 src/Widgets/ItemRow.vala:1323
 #: src/Widgets/SectionRow.vala:586 src/Widgets/AreaRow.vala:499
@@ -540,7 +541,7 @@ msgstr "Condividi"
 
 #: src/Widgets/ProjectRow.vala:506
 msgid "Send by e-mail"
-msgstr ""
+msgstr "Inviare per email"
 
 #. var share_text_menu = new Widgets.ImageMenuItem (_("Text"), "text-x-generic-symbolic");
 #: src/Widgets/ProjectRow.vala:507 src/Widgets/ItemRow.vala:1355
@@ -646,7 +647,7 @@ msgstr "Data completamento"
 
 #: src/Widgets/SectionRow.vala:72 src/Widgets/SectionRow.vala:685
 msgid "Display Tasks"
-msgstr ""
+msgstr "Visualizza Attività"
 
 #: src/Widgets/SectionRow.vala:80 src/Widgets/SectionRow.vala:690
 #, fuzzy
@@ -671,7 +672,7 @@ msgstr "Salva"
 #: src/Widgets/SectionRow.vala:539 src/Widgets/SectionRow.vala:561
 #, c-format
 msgid "Section moved to <b>%s</b>"
-msgstr ""
+msgstr "La sezione è stata spostata in <b>%s</b>"
 
 #: src/Widgets/SectionRow.vala:583 src/Widgets/MagicButton.vala:32
 #, fuzzy
@@ -846,7 +847,7 @@ msgstr ""
 
 #: src/Views/Inbox.vala:150
 msgid "Looks like everything's organized in the right place."
-msgstr ""
+msgstr "Sembra che tutto sia organizzato nel posto giusto."
 
 #: src/Views/Inbox.vala:718 src/Views/Project.vala:842
 #, fuzzy
@@ -860,11 +861,11 @@ msgstr "Data completamento"
 
 #: src/Views/Today.vala:85
 msgid "What tasks are on your mind?"
-msgstr ""
+msgstr "Quali compiti hai in mente?"
 
 #: src/Views/Today.vala:86
 msgid "Tap + to add a task for today."
-msgstr ""
+msgstr "Tocca + per aggiungere un'attività per oggi."
 
 #: src/Views/Project.vala:121
 msgid "Invite person"
@@ -884,11 +885,11 @@ msgstr "Aggiungi nota"
 
 #: src/Views/Project.vala:311
 msgid "What will you accomplish?"
-msgstr ""
+msgstr "Cosa realizzerai?"
 
 #: src/Views/Project.vala:312
 msgid "Tap + to add a task to this project."
-msgstr ""
+msgstr "Tocca + per aggiungere un'attività a questo progetto."
 
 #: src/Dialogs/TodoistOAuth.vala:43 src/Dialogs/TodoistOAuth.vala:121
 msgid "Loading…"
@@ -1028,6 +1029,9 @@ msgid ""
 "open the Quick Add window, where you can enter a pending task and quickly "
 "return to work."
 msgstr ""
+"Non preoccuparti per quale app stai usando. Puoi usare una scorciatoia da tastiera per"
+"aprire la finestra Aggiunta rapida, dove puoi inserire un'attività in sospeso e rapidamente"
+"ritornare al lavoro."
 
 #: src/Dialogs/Preferences/Preferences.vala:461
 #: src/Dialogs/Preferences/Preferences.vala:530
@@ -1042,7 +1046,7 @@ msgstr "Elimina progetto"
 
 #: src/Dialogs/Preferences/Preferences.vala:528
 msgid "Press keys…"
-msgstr ""
+msgstr "Premere i tasti..."
 
 #: src/Dialogs/Preferences/Preferences.vala:583
 msgid "DE Integration"
@@ -1058,6 +1062,9 @@ msgid ""
 "closes. This will allow Planner to continue updating and sending reminder "
 "notifications."
 msgstr ""
+"Abilita questa impostazione per mantenere Planner in esecuzione in background quando"
+"chiude. Ciò consentirà a Planner di continuare ad aggiornare e inviare promemoria"
+"Notifiche".
 
 #: src/Dialogs/Preferences/Preferences.vala:599
 msgid "Run on startup"
@@ -1065,11 +1072,11 @@ msgstr "Eseguire all'avvio"
 
 #: src/Dialogs/Preferences/Preferences.vala:603
 msgid "Enable this setting to make Planner startup with the system."
-msgstr ""
+msgstr "Abilitare questa impostazione per avviare Planner con il sistema."
 
 #: src/Dialogs/Preferences/Preferences.vala:620
 msgid "Button layout"
-msgstr ""
+msgstr "Disposizione dei pulsanti"
 
 #: src/Dialogs/Preferences/Preferences.vala:627
 msgid "Help"
@@ -1139,7 +1146,7 @@ msgstr "Ultima sincronizzazione riuscita: %s"
 
 #: src/Dialogs/Preferences/Preferences.vala:935
 msgid "Sync server"
-msgstr ""
+msgstr "Sincronizza server"
 
 #: src/Dialogs/Preferences/Preferences.vala:940
 msgid ""
@@ -1195,6 +1202,8 @@ msgid ""
 "Thanks to them who made a donation via Patreon or PayPal. (If you want to "
 "appear here visit our Patreon account 😉️)"
 msgstr ""
+"Grazie a loro che hanno fatto una donazione tramite Patreon o PayPal. (Se vuoi"
+"apparire qui, visita il nostro account Patreon 😉️)"
 
 #: src/Dialogs/Preferences/Preferences.vala:1231
 msgid "Report a Problem"
